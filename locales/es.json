@@ -1,0 +1,247 @@
+{
+  "common": {
+    "appName": "BrightMind",
+    "upgrade": "Mejorar",
+    "yes": "Si",
+    "no": "No",
+    "credits": "Creditos",
+    "premium": "Premium",
+    "free": "Gratis",
+    "compare": "Comparar",
+    "continue": "Continuar",
+    "next": "Siguiente",
+    "back": "Atras",
+    "call": "Llamar",
+    "book": "Reservar",
+    "done": "Listo",
+    "signOut": "Cerrar sesion",
+    "language": "Idioma",
+    "share": "Compartir",
+    "copy": "Copiar codigo",
+    "copied": "Copiado",
+    "mockMode": "Modo demo",
+    "presentationReady": "Listo para la presentacion",
+    "loading": "Cargando..."
+  },
+  "tabs": {
+    "home": "Inicio",
+    "finance": "Seguros",
+    "doctor": "Medico",
+    "translate": "Traducir",
+    "profile": "Perfil"
+  },
+  "auth": {
+    "signInTitle": "Apoyo tranquilo para la vida de estudiante en el extranjero.",
+    "signInSubtitle": "Un companero de salud mental listo para presentar, pensado para estudiantes internacionales.",
+    "demoAccess": "Entrar al demo ahora",
+    "signIn": "Continuar con Google demo",
+    "signUp": "Crear cuenta demo",
+    "name": "Nombre",
+    "email": "Correo electronico",
+    "referralCode": "Codigo de referido",
+    "createAccount": "Crear cuenta",
+    "needAccount": "Necesitas una cuenta?",
+    "alreadyHaveAccount": "Ya tienes una cuenta?",
+    "legal": "Clerk y Supabase ya estan preparados. Esta version permanece en modo mock seguro hasta que agregues las claves."
+  },
+  "home": {
+    "greeting": "Bienvenido de nuevo",
+    "heroTitle": "Cobertura, atencion, traduccion y calma en un solo lugar.",
+    "heroBody": "Disenado para demos rapidas: los flujos son interactivos, las partes sensibles siguen simuladas y la interfaz se mantiene clara.",
+    "heroCta": "Ver planes Premium",
+    "tipTitle": "Consejo de salud mental de hoy",
+    "tipBody": "Las rutinas pequenas funcionan mejor que los grandes reinicios. Elige una accion que puedas repetir despues de clase y mantenla visible.",
+    "cards": {
+      "financeTitle": "Seguros OSHC",
+      "financeBody": "Compara planes, haz el cuestionario de recomendacion y revisa la guia de cambio.",
+      "doctorTitle": "Buscador de medicos",
+      "doctorBody": "Encuentra psicologos cercanos y clinicas compatibles con Medicare en una sola pantalla.",
+      "translateTitle": "Traduccion",
+      "translateBody": "Usa la traduccion de texto ahora y la demo de voz en modo Premium.",
+      "membershipTitle": "Membresia",
+      "membershipBody": "Desbloquea recomendaciones de OSHC y traduccion por voz con una sola mejora."
+    }
+  },
+  "finance": {
+    "title": "Soporte para OSHC",
+    "subtitle": "Comparaciones, ranking por cuestionario y guia de cambio pensados primero para demos.",
+    "browseCompare": "Comparar planes",
+    "browseBody": "Elige dos o tres planes y revisa las diferencias en segundos.",
+    "quizTitle": "Recomendacion Premium",
+    "quizBody": "Responde cuatro preguntas ligeras y obten una lista priorizada.",
+    "guideTitle": "Guia de cambio",
+    "guideBody": "Llama, confirma y cambia con una lista clara.",
+    "perMonth": "por mes",
+    "compareMatrix": "Matriz comparativa",
+    "compareHelper": "Selecciona hasta tres planes para la matriz comparativa.",
+    "compareColumns": {
+      "provider": "Aseguradora"
+    },
+    "coverageLevels": {
+      "core": "Basico",
+      "balanced": "Equilibrado",
+      "plus": "Plus"
+    },
+    "planTags": {
+      "budget": "Presupuesto",
+      "telehealth": "Telemedicina",
+      "mentalHealth": "Salud mental",
+      "support": "Buen soporte",
+      "extras": "Extras",
+      "family": "Familiar",
+      "optical": "Optica",
+      "dental": "Dental",
+      "physio": "Fisioterapia"
+    },
+    "planPerks": {
+      "lowCost": "Precio de entrada mas bajo para estudiantes con presupuesto ajustado.",
+      "easyClaims": "Proceso de reembolso simple para devoluciones rapidas.",
+      "mentalHealthFocus": "Mejor opcion cuando la cobertura de consejeria importa.",
+      "strongSupport": "Canales de soporte confiables durante el alta.",
+      "extrasBundle": "La mejor opcion si quieres extras de dental y optica.",
+      "familyFriendly": "Mas comodo para necesidades de pareja o familia.",
+      "goodValue": "Buen equilibrio entre costo y flexibilidad.",
+      "fastSupport": "Soporte agil para preguntas sobre el cambio.",
+      "supportiveOnboarding": "Util para estudiantes internacionales que llegan por primera vez."
+    },
+    "compareRows": {
+      "monthlyPrice": "Mensual",
+      "mentalHealth": "Salud mental",
+      "dental": "Dental",
+      "optical": "Optica",
+      "telehealth": "Telemedicina"
+    },
+    "quiz": {
+      "startTitle": "Cuestionario Premium",
+      "startBody": "Puntuacion rapida basada en reglas. Sin respuestas vagas de IA.",
+      "resultTitle": "Lista recomendada",
+      "resultBody": "La mejor opcion aparece primero, con alternativas debajo.",
+      "questions": {
+        "household": {
+          "title": "Quien necesita cobertura?",
+          "description": "Esto cambia cuanto importa la flexibilidad para familia."
+        },
+        "budget": {
+          "title": "Que importa mas?",
+          "description": "Elige entre menor precio o cobertura mas amplia."
+        },
+        "extras": {
+          "title": "Importan los extras?",
+          "description": "Piensa en dental, optica y soportes adicionales."
+        },
+        "mentalHealth": {
+          "title": "Que tan importante es la cobertura de salud mental?",
+          "description": "Usa esto para favorecer planes mas fuertes para apoyo psicologico."
+        }
+      },
+      "options": {
+        "single": "Solo yo",
+        "family": "Pareja o familia",
+        "value": "Menor costo",
+        "coverage": "Cobertura mas amplia",
+        "highPriority": "Alta prioridad",
+        "standardPriority": "Prioridad normal"
+      }
+    },
+    "guideChecklist": {
+      "one": "Confirma la fecha minima de finalizacion de tu poliza actual.",
+      "two": "Llama a la aseguradora y pide la ruta exacta de cancelacion para polizas de estudiantes.",
+      "three": "Activa primero la nueva poliza y luego solicita la confirmacion del solapamiento.",
+      "four": "Guarda capturas de las cartas de cobertura para el seguimiento con visa o universidad."
+    }
+  },
+  "doctor": {
+    "title": "Encuentra atencion cerca",
+    "subtitle": "Datos demo estaticos, flujo de carga en paralelo y filtros practicos.",
+    "bulkBilling": "Facturacion directa",
+    "privateBilling": "Consulta privada",
+    "locationReady": "Usando la ubicacion demo del centro de Melbourne.",
+    "locationFallback": "Se omitio el acceso a la ubicacion. Usando el centro de Melbourne.",
+    "specialties": {
+      "general": "General",
+      "anxiety": "Ansiedad",
+      "depression": "Depresion",
+      "trauma": "Trauma",
+      "relationship": "Relaciones"
+    },
+    "filters": {
+      "gender": "Genero",
+      "specialty": "Especialidad",
+      "billing": "Facturacion",
+      "all": "Todos",
+      "male": "Hombre",
+      "female": "Mujer",
+      "yes": "Si",
+      "no": "No"
+    },
+    "mapFallback": "La vista previa del mapa se mantiene simplificada en web. En compilaciones nativas puede cambiar a marcadores interactivos.",
+    "about": "Acerca de",
+    "languages": "Idiomas",
+    "availability": "Disponibilidad",
+    "suburb": "Barrio",
+    "bookTitle": "Reserva simulada",
+    "bookSubtitle": "Elige un horario y muestra un estado de confirmacion claro.",
+    "dateLabel": "Fecha preferida",
+    "slotLabel": "Franja horaria",
+    "noteLabel": "Que te gustaria mencionar?",
+    "bookingConfirmed": "Reserva confirmada",
+    "bookingBody": "Esta es una simulacion segura para presentacion. No se envio ninguna solicitud real a la clinica."
+  },
+  "translate": {
+    "title": "Traduce con menos friccion",
+    "subtitle": "El modo texto funciona. El modo voz esta preparado para demos.",
+    "textTitle": "Traduccion de texto",
+    "voiceTitle": "Demo de traduccion por voz",
+    "voiceSubtitle": "Un guion temporizado simula el reconocimiento y la traduccion en modo Premium.",
+    "inputPlaceholder": "Escribe lo que quieres decir en tu idioma.",
+    "targetLanguage": "Idioma de destino",
+    "swap": "Intercambiar",
+    "translating": "Traduciendo...",
+    "outputPlaceholder": "Tu traduccion aparecera aqui.",
+    "errors": {
+      "browserNotSupported": "El modo rapido de DeepL solo funciona en la app nativa. Usa Expo Go en tu telefono o agrega un proxy backend para web.",
+      "notConfigured": "La traduccion aun no esta configurada. Agrega EXPO_PUBLIC_DEEPL_API_KEY o conecta un proxy seguro para translate-text.",
+      "requestFailed": "La traduccion fallo. Revisa la clave de la API de DeepL o la solicitud de red."
+    },
+    "history": "Traducciones recientes",
+    "startListening": "Iniciar demo de voz",
+    "listening": "Escuchando...",
+    "recognized": "Voz reconocida",
+    "translatedResult": "Resultado traducido"
+  },
+  "membership": {
+    "title": "Membresia y creditos",
+    "subtitle": "Precios simples, valor visible y una ruta de recarga simulada con Stripe.",
+    "plansTitle": "Gratis vs Premium",
+    "topupTitle": "Elige un paquete de creditos",
+    "topupBody": "En este MVP, el pago exitoso es simulado, pero la actualizacion de estado es real.",
+    "referralTitle": "Invita a tus amigos",
+    "referralBody": "Comparte tu codigo. La demo puede simular una recompensa por referido al instante.",
+    "lockedTitle": "Se requiere Premium",
+    "lockedBody": "Este flujo permanece detras del acceso Premium para que la demo muestre claramente el valor de la membresia.",
+    "freeFeatures": {
+      "one": "Traduccion de texto",
+      "two": "Lista de medicos y filtros",
+      "three": "Exploracion de OSHC"
+    },
+    "premiumFeatures": {
+      "one": "Cuestionario de recomendacion OSHC",
+      "two": "Demo de traduccion por voz",
+      "three": "Experiencia Premium mas cuidada"
+    },
+    "packSuccess": "Se anadieron creditos y se desbloqueo Premium para la demo."
+  },
+  "profile": {
+    "title": "Perfil y ajustes",
+    "demoMode": "Cuenta demo",
+    "connectedHint": "Las claves de Clerk y Supabase son opcionales por ahora. La app sigue siendo usable sin ellas.",
+    "languageTitle": "Idioma",
+    "referralTitle": "Codigo de referido",
+    "bookingsTitle": "Reservas recientes",
+    "noBookings": "Todavia no hay reservas simuladas."
+  },
+  "notFound": {
+    "title": "Falta esta pantalla",
+    "body": "Esta ruta aun no esta conectada. Vuelve al flujo principal."
+  }
+}

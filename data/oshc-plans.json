@@ -1,0 +1,97 @@
+[
+  {
+    "id": "medibank-core",
+    "name": "Core Saver",
+    "provider": "Medibank",
+    "monthlyPrice": 69,
+    "coverageLevel": "core",
+    "tags": ["budget", "telehealth"],
+    "extras": ["mentalHealth", "telehealth"],
+    "pros": ["lowCost", "easyClaims"],
+    "cons": ["limitedExtras"],
+    "supportPhone": "134190",
+    "scoreProfile": {
+      "budget": 5,
+      "balanced": 2,
+      "mentalHealth": 3,
+      "extras": 1,
+      "family": 1
+    }
+  },
+  {
+    "id": "allianz-balanced",
+    "name": "Balanced Care",
+    "provider": "Allianz Care",
+    "monthlyPrice": 81,
+    "coverageLevel": "balanced",
+    "tags": ["mentalHealth", "support"],
+    "extras": ["mentalHealth", "optical"],
+    "pros": ["mentalHealthFocus", "strongSupport"],
+    "cons": ["midPrice"],
+    "supportPhone": "137742",
+    "scoreProfile": {
+      "budget": 2,
+      "balanced": 5,
+      "mentalHealth": 5,
+      "extras": 3,
+      "family": 2
+    }
+  },
+  {
+    "id": "bupa-plus",
+    "name": "Campus Plus",
+    "provider": "Bupa",
+    "monthlyPrice": 88,
+    "coverageLevel": "plus",
+    "tags": ["extras", "family"],
+    "extras": ["dental", "optical", "physio"],
+    "pros": ["extrasBundle", "familyFriendly"],
+    "cons": ["higherCost"],
+    "supportPhone": "134135",
+    "scoreProfile": {
+      "budget": 1,
+      "balanced": 4,
+      "mentalHealth": 4,
+      "extras": 5,
+      "family": 5
+    }
+  },
+  {
+    "id": "nib-flex",
+    "name": "Flex Cover",
+    "provider": "nib",
+    "monthlyPrice": 76,
+    "coverageLevel": "balanced",
+    "tags": ["budget", "extras"],
+    "extras": ["dental", "telehealth"],
+    "pros": ["goodValue", "fastSupport"],
+    "cons": ["weakerMentalHealth"],
+    "supportPhone": "1800775766",
+    "scoreProfile": {
+      "budget": 4,
+      "balanced": 4,
+      "mentalHealth": 2,
+      "extras": 4,
+      "family": 3
+    }
+  },
+  {
+    "id": "ahm-essentials",
+    "name": "Essentials Family",
+    "provider": "ahm",
+    "monthlyPrice": 84,
+    "coverageLevel": "balanced",
+    "tags": ["family", "support"],
+    "extras": ["mentalHealth", "family"],
+    "pros": ["familyFriendly", "supportiveOnboarding"],
+    "cons": ["lessPremiumExtras"],
+    "supportPhone": "134246",
+    "scoreProfile": {
+      "budget": 2,
+      "balanced": 4,
+      "mentalHealth": 4,
+      "extras": 2,
+      "family": 5
+    }
+  }
+]

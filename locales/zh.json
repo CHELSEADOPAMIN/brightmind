@@ -1,0 +1,247 @@
+{
+  "common": {
+    "appName": "BrightMind",
+    "upgrade": "升级",
+    "yes": "是",
+    "no": "否",
+    "credits": "积分",
+    "premium": "高级版",
+    "free": "免费版",
+    "compare": "对比",
+    "continue": "继续",
+    "next": "下一步",
+    "back": "返回",
+    "call": "拨打",
+    "book": "预约",
+    "done": "完成",
+    "signOut": "退出登录",
+    "language": "语言",
+    "share": "分享",
+    "copy": "复制邀请码",
+    "copied": "已复制",
+    "mockMode": "演示模式",
+    "presentationReady": "可演示版本",
+    "loading": "加载中..."
+  },
+  "tabs": {
+    "home": "首页",
+    "finance": "保险",
+    "doctor": "医生",
+    "translate": "翻译",
+    "profile": "我的"
+  },
+  "auth": {
+    "signInTitle": "留学生活里的平静支持。",
+    "signInSubtitle": "一个为国际学生准备的、可演示的心理健康助手。",
+    "demoAccess": "立刻进入演示",
+    "signIn": "使用演示 Google 登录",
+    "signUp": "创建演示账户",
+    "name": "姓名",
+    "email": "邮箱",
+    "referralCode": "邀请码",
+    "createAccount": "创建账户",
+    "needAccount": "还没有账户？",
+    "alreadyHaveAccount": "已经有账户？",
+    "legal": "Clerk 和 Supabase 已预留接入位，当前构建保持安全的 mock 模式。"
+  },
+  "home": {
+    "greeting": "欢迎回来",
+    "heroTitle": "保险、就医、翻译与心理支持，一处完成。",
+    "heroBody": "为了展示而设计：流程可交互，风险环节保持 mock，界面保持简洁稳定。",
+    "heroCta": "查看会员方案",
+    "tipTitle": "今日心理健康建议",
+    "tipBody": "别等一次性重启生活。选一个课后也能重复的小动作，并把它固定下来。",
+    "cards": {
+      "financeTitle": "OSHC 保险",
+      "financeBody": "浏览套餐、运行推荐问卷，并查看修改指引。",
+      "doctorTitle": "医生查找",
+      "doctorBody": "把附近心理医生和 Medicare 友好诊所放在同一屏。",
+      "translateTitle": "翻译",
+      "translateBody": "文本翻译可用，语音翻译作为高级版演示。",
+      "membershipTitle": "会员",
+      "membershipBody": "通过一个升级流程解锁保险推荐和语音翻译。"
+    }
+  },
+  "finance": {
+    "title": "OSHC 支持",
+    "subtitle": "以展示为优先的套餐对比、问卷排序与修改指南。",
+    "browseCompare": "套餐对比",
+    "browseBody": "选择 2 到 3 个套餐，几秒内看清差异。",
+    "quizTitle": "高级版推荐",
+    "quizBody": "回答四个轻量问题，得到排序后的推荐名单。",
+    "guideTitle": "修改指引",
+    "guideBody": "一套干净的核对清单，帮助你联系并切换。",
+    "perMonth": "每月",
+    "compareMatrix": "对比矩阵",
+    "compareHelper": "最多选择三个套餐进入对比矩阵。",
+    "compareColumns": {
+      "provider": "保险公司"
+    },
+    "coverageLevels": {
+      "core": "基础",
+      "balanced": "均衡",
+      "plus": "加强"
+    },
+    "planTags": {
+      "budget": "预算友好",
+      "telehealth": "远程问诊",
+      "mentalHealth": "心理健康",
+      "support": "服务稳定",
+      "extras": "附加保障",
+      "family": "家庭适配",
+      "optical": "眼科",
+      "dental": "牙科",
+      "physio": "理疗"
+    },
+    "planPerks": {
+      "lowCost": "适合预算紧张的学生，入门价格更低。",
+      "easyClaims": "报销流程相对省心。",
+      "mentalHealthFocus": "如果你在意心理咨询支持，这类方案更匹配。",
+      "strongSupport": "首次投保和切换时支持渠道更稳定。",
+      "extrasBundle": "适合想要牙科与眼科附加保障的人。",
+      "familyFriendly": "更适合伴侣或家庭需求。",
+      "goodValue": "在价格和灵活度之间取得平衡。",
+      "fastSupport": "适合快速处理切换问题。",
+      "supportiveOnboarding": "对第一次来澳的留学生更友好。"
+    },
+    "compareRows": {
+      "monthlyPrice": "月费",
+      "mentalHealth": "心理健康",
+      "dental": "牙科",
+      "optical": "眼科",
+      "telehealth": "远程问诊"
+    },
+    "quiz": {
+      "startTitle": "高级版问卷",
+      "startBody": "规则引擎打分，没有空泛 AI 结论。",
+      "resultTitle": "推荐结果",
+      "resultBody": "最适合的方案排在最前，下面保留候选备选。",
+      "questions": {
+        "household": {
+          "title": "谁需要这份保险？",
+          "description": "这会影响家庭灵活性的重要程度。"
+        },
+        "budget": {
+          "title": "你更看重什么？",
+          "description": "在预算控制和更广覆盖之间做选择。"
+        },
+        "extras": {
+          "title": "你在意附加保障吗？",
+          "description": "比如牙科、眼科和额外支持。"
+        },
+        "mentalHealth": {
+          "title": "你有多看重心理健康保障？",
+          "description": "如果你担心咨询支持，可提高相关权重。"
+        }
+      },
+      "options": {
+        "single": "仅自己",
+        "family": "伴侣或家庭",
+        "value": "更低价格",
+        "coverage": "更广覆盖",
+        "highPriority": "非常重要",
+        "standardPriority": "一般重要"
+      }
+    },
+    "guideChecklist": {
+      "one": "先确认当前保单的最短持有时间或结束时间。",
+      "two": "致电保险公司，确认国际学生保单的具体取消流程。",
+      "three": "先完成新保单，再要求确认覆盖衔接。",
+      "four": "把保单截图保留好，方便签证或学校行政补交。"
+    }
+  },
+  "doctor": {
+    "title": "附近就医资源",
+    "subtitle": "静态演示数据、并行获取流程和实用筛选。",
+    "bulkBilling": "Bulk billing",
+    "privateBilling": "自费",
+    "locationReady": "当前使用 Melbourne CBD 演示定位。",
+    "locationFallback": "未开启定位，已回退到 Melbourne CBD。",
+    "specialties": {
+      "general": "综合",
+      "anxiety": "焦虑",
+      "depression": "抑郁",
+      "trauma": "创伤",
+      "relationship": "关系问题"
+    },
+    "filters": {
+      "gender": "性别",
+      "specialty": "专长",
+      "billing": "费用",
+      "all": "全部",
+      "male": "男性",
+      "female": "女性",
+      "yes": "是",
+      "no": "否"
+    },
+    "mapFallback": "Web 端地图保持轻量展示，原生端可切换到交互式标记。",
+    "about": "简介",
+    "languages": "语言",
+    "availability": "可预约时段",
+    "suburb": "区域",
+    "bookTitle": "模拟预约",
+    "bookSubtitle": "选时间并展示清晰的成功状态。",
+    "dateLabel": "期望日期",
+    "slotLabel": "时间段",
+    "noteLabel": "想提前说明什么？",
+    "bookingConfirmed": "预约成功",
+    "bookingBody": "这是演示用 mock，不会向真实诊所发送请求。"
+  },
+  "translate": {
+    "title": "降低沟通摩擦",
+    "subtitle": "文本翻译可用，语音翻译适合展示。",
+    "textTitle": "文本翻译",
+    "voiceTitle": "语音翻译演示",
+    "voiceSubtitle": "通过定时脚本模拟识别与翻译过程，仅限高级版。",
+    "inputPlaceholder": "输入你想表达的话。",
+    "targetLanguage": "目标语言",
+    "swap": "互换",
+    "translating": "翻译中...",
+    "outputPlaceholder": "翻译结果会显示在这里。",
+    "errors": {
+      "browserNotSupported": "DeepL 快速版只支持原生 App，不支持浏览器。请用手机 Expo Go，或者给 web 接后端代理。",
+      "notConfigured": "翻译服务还没配置好。请添加 EXPO_PUBLIC_DEEPL_API_KEY，或接入安全的 translate-text 代理。",
+      "requestFailed": "翻译失败，请检查 DeepL API Key 或网络请求。"
+    },
+    "history": "最近翻译",
+    "startListening": "开始语音演示",
+    "listening": "识别中...",
+    "recognized": "识别文本",
+    "translatedResult": "翻译结果"
+  },
+  "membership": {
+    "title": "会员与积分",
+    "subtitle": "价格清晰，价值直观，充值路径用 mock 展示。",
+    "plansTitle": "免费版 vs 高级版",
+    "topupTitle": "选择积分包",
+    "topupBody": "在这个 MVP 中，支付成功是 mock，但状态更新是真实的。",
+    "referralTitle": "邀请好友",
+    "referralBody": "分享邀请码，演示中可以立即模拟成功返积分。",
+    "lockedTitle": "需要高级版",
+    "lockedBody": "这个流程保留在会员门槛后面，方便展示升级价值。",
+    "freeFeatures": {
+      "one": "文本翻译",
+      "two": "医生列表与筛选",
+      "three": "OSHC 浏览"
+    },
+    "premiumFeatures": {
+      "one": "OSHC 推荐问卷",
+      "two": "语音翻译演示",
+      "three": "更完整的高级版展示体验"
+    },
+    "packSuccess": "已增加积分，并在演示中解锁高级版。"
+  },
+  "profile": {
+    "title": "个人与设置",
+    "demoMode": "演示账户",
+    "connectedHint": "即使暂时没有 Clerk 和 Supabase key，这个应用也能保持可用。",
+    "languageTitle": "语言",
+    "referralTitle": "邀请码",
+    "bookingsTitle": "最近预约",
+    "noBookings": "还没有模拟预约。"
+  },
+  "notFound": {
+    "title": "页面不存在",
+    "body": "这个路由还没有接好，先回到主流程。"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "common": {
+    "appName": "BrightMind",
+    "upgrade": "Upgrade",
+    "yes": "Yes",
+    "no": "No",
+    "credits": "Credits",
+    "premium": "Premium",
+    "free": "Free",
+    "compare": "Compare",
+    "continue": "Continue",
+    "next": "Next",
+    "back": "Back",
+    "call": "Call",
+    "book": "Book",
+    "done": "Done",
+    "signOut": "Sign out",
+    "language": "Language",
+    "share": "Share",
+    "copy": "Copy code",
+    "copied": "Copied",
+    "mockMode": "Presentation mode",
+    "loading": "Loading..."
+  },
+  "tabs": {
+    "home": "Home",
+    "finance": "Finance",
+    "doctor": "Doctor",
+    "translate": "Translate",
+    "profile": "Profile"
+  },
+  "auth": {
+    "signInTitle": "Calm support for study-abroad life.",
+    "signInSubtitle": "A presentation-ready mental health companion for international students.",
+    "demoAccess": "Enter the demo instantly",
+    "signIn": "Continue with demo Google",
+    "signUp": "Create demo account",
+    "name": "Name",
+    "email": "Email",
+    "referralCode": "Referral code",
+    "createAccount": "Create account",
+    "needAccount": "Need an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "legal": "Clerk and Supabase are scaffolded. This build stays in safe mock mode until keys are added."
+  },
+  "home": {
+    "greeting": "Welcome back",
+    "heroTitle": "One place for cover, care, translation, and calm.",
+    "heroBody": "Designed for fast demos: the flows are interactive, the risky parts stay mocked, and the UI stays crisp.",
+    "heroCta": "View premium plans",
+    "tipTitle": "Today’s mental health tip",
+    "tipBody": "Small routines beat heroic resets. Pick one action you can repeat after class and make it visible.",
+    "cards": {
+      "financeTitle": "OSHC finance",
+      "financeBody": "Compare plans, run the recommendation quiz, and view switch guides.",
+      "doctorTitle": "Doctor finder",
+      "doctorBody": "Map nearby psychologists and Medicare-friendly clinics in one screen.",
+      "translateTitle": "Translation",
+      "translateBody": "Use real text translation now and demo voice translation in premium mode.",
+      "membershipTitle": "Membership",
+      "membershipBody": "Unlock OSHC recommendations and voice translation with one upgrade flow."
+    }
+  },
+  "finance": {
+    "title": "OSHC support",
+    "subtitle": "Presentation-first comparisons, quiz ranking, and switching guidance.",
+    "browseCompare": "Plan compare",
+    "browseBody": "Pick two or three plans and scan the difference in seconds.",
+    "quizTitle": "Premium recommendation",
+    "quizBody": "Answer four lightweight questions and get a ranked shortlist.",
+    "guideTitle": "Switch guide",
+    "guideBody": "Call, confirm, and switch with a clean checklist.",
+    "perMonth": "per month",
+    "compareMatrix": "Compare matrix",
+    "compareColumns": {
+      "provider": "Assureur"
+    },
+    "coverageLevels": {
+      "core": "Core",
+      "balanced": "Balanced",
+      "plus": "Plus"
+    },
+    "planTags": {
+      "budget": "Budget",
+      "telehealth": "Telehealth",
+      "mentalHealth": "Mental health",
+      "support": "Strong support",
+      "extras": "Extras",
+      "family": "Family",
+      "optical": "Optical",
+      "dental": "Dental",
+      "physio": "Physio"
+    },
+    "planPerks": {
+      "lowCost": "Lower entry price for tight student budgets.",
+      "easyClaims": "Simple claims flow for quick reimbursements.",
+      "mentalHealthFocus": "Stronger fit when counselling cover matters.",
+      "strongSupport": "Reliable support channels during onboarding.",
+      "extrasBundle": "Best fit when you want dental and optical extras.",
+      "familyFriendly": "More comfortable for partner or family needs.",
+      "goodValue": "Solid middle ground between cost and flexibility.",
+      "fastSupport": "Responsive support for switching questions.",
+      "supportiveOnboarding": "Helpful for first-time international students."
+    },
+    "compareRows": {
+      "monthlyPrice": "Monthly",
+      "mentalHealth": "Mental health",
+      "dental": "Dental",
+      "optical": "Optical",
+      "telehealth": "Telehealth"
+    },
+    "quiz": {
+      "startTitle": "Premium quiz",
+      "startBody": "Quick rules-based scoring. No AI hand-waving.",
+      "resultTitle": "Recommended shortlist",
+      "resultBody": "Your strongest match is ranked first, with backup options below.",
+      "questions": {
+        "household": {
+          "title": "Who needs cover?",
+          "description": "This changes how much family flexibility matters."
+        },
+        "budget": {
+          "title": "What matters more?",
+          "description": "Choose between price discipline and broader cover."
+        },
+        "extras": {
+          "title": "Do extras matter?",
+          "description": "Think dental, optical, and add-on support."
+        },
+        "mentalHealth": {
+          "title": "How important is mental health cover?",
+          "description": "Use this to bias plans that feel stronger for counselling support."
+        }
+      },
+      "options": {
+        "single": "Just me",
+        "family": "Partner or family",
+        "value": "Lower cost",
+        "coverage": "Broader coverage",
+        "highPriority": "High priority",
+        "standardPriority": "Standard priority"
+      }
+    },
+    "guideChecklist": {
+      "one": "Confirm the minimum policy end date on your current cover.",
+      "two": "Call the provider and ask for the exact cancellation path for student policies.",
+      "three": "Submit the new policy first, then request overlap confirmation.",
+      "four": "Keep screenshots of cover letters for visa or university admin follow-up."
+    }
+  },
+  "doctor": {
+    "title": "Find care nearby",
+    "subtitle": "Static demo data, parallel fetch flow, and practical filters.",
+    "bulkBilling": "Bulk billing",
+    "privateBilling": "Private billing",
+    "locationReady": "Using Melbourne CBD demo location.",
+    "locationFallback": "Location access skipped. Falling back to Melbourne CBD.",
+    "specialties": {
+      "general": "General",
+      "anxiety": "Anxiety",
+      "depression": "Depression",
+      "trauma": "Trauma",
+      "relationship": "Relationship"
+    },
+    "filters": {
+      "gender": "Gender",
+      "specialty": "Specialty",
+      "billing": "Billing",
+      "all": "All",
+      "male": "Male",
+      "female": "Female",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "mapFallback": "Map preview stays simplified on web. Native builds can switch to interactive markers.",
+    "about": "About",
+    "languages": "Languages",
+    "availability": "Availability",
+    "suburb": "Suburb",
+    "bookTitle": "Mock booking",
+    "bookSubtitle": "Choose a slot and show a clear confirmation state.",
+    "dateLabel": "Preferred date",
+    "slotLabel": "Time slot",
+    "noteLabel": "What would you like to mention?",
+    "bookingConfirmed": "Booking confirmed",
+    "bookingBody": "This is a presentation-safe mock. No real clinic request was sent."
+  },
+  "translate": {
+    "title": "Translate with less friction",
+    "subtitle": "Text mode is functional. Voice mode is staged for demos.",
+    "textTitle": "Text translation",
+    "voiceTitle": "Voice translation demo",
+    "voiceSubtitle": "A timed script simulates recognition and translation in premium mode.",
+    "inputPlaceholder": "Type what you want to say in your own language.",
+    "targetLanguage": "Target language",
+    "swap": "Swap",
+    "translating": "Translating...",
+    "outputPlaceholder": "Your translation appears here.",
+    "errors": {
+      "browserNotSupported": "DeepL quick mode only works in the native app. Use Expo Go on your phone, or add a backend proxy for web.",
+      "notConfigured": "Translation is not configured yet. Add EXPO_PUBLIC_DEEPL_API_KEY or connect a secure translate-text proxy.",
+      "requestFailed": "Translation failed. Check the DeepL API key or network request."
+    },
+    "history": "Recent translations",
+    "startListening": "Start voice demo",
+    "listening": "Listening...",
+    "recognized": "Recognized speech",
+    "translatedResult": "Translated result"
+  },
+  "membership": {
+    "title": "Membership and credits",
+    "subtitle": "Simple pricing, visible value, and a mock Stripe top-up path.",
+    "plansTitle": "Free vs Premium",
+    "topupTitle": "Choose a credit pack",
+    "topupBody": "In this MVP, payment success is mocked but the state update is real.",
+    "referralTitle": "Invite friends",
+    "referralBody": "Share your code. The demo can simulate a successful referral reward instantly.",
+    "lockedTitle": "Premium required",
+    "lockedBody": "This flow stays behind the premium gate so the demo clearly shows membership value.",
+    "freeFeatures": {
+      "one": "Text translation",
+      "two": "Doctor list and filters",
+      "three": "OSHC browsing"
+    },
+    "premiumFeatures": {
+      "one": "OSHC recommendation quiz",
+      "two": "Voice translation demo",
+      "three": "Priority-style premium presentation"
+    },
+    "packSuccess": "Credits added and premium unlocked for the demo."
+  },
+  "profile": {
+    "title": "Profile and settings",
+    "demoMode": "Demo account",
+    "connectedHint": "Clerk and Supabase keys are optional right now. The app remains usable without them.",
+    "languageTitle": "Language",
+    "referralTitle": "Referral code",
+    "bookingsTitle": "Recent bookings",
+    "noBookings": "No mock bookings yet."
+  },
+  "notFound": {
+    "title": "This screen is missing",
+    "body": "The route is not wired yet. Head back to the main flow."
+  }
+}

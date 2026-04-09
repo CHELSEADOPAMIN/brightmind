@@ -1,0 +1,89 @@
+[
+  {
+    "id": "household",
+    "titleKey": "finance.quiz.questions.household.title",
+    "descriptionKey": "finance.quiz.questions.household.description",
+    "options": [
+      {
+        "id": "single",
+        "labelKey": "finance.quiz.options.single",
+        "weights": {
+          "budget": 2,
+          "balanced": 1
+        }
+      },
+      {
+        "id": "family",
+        "labelKey": "finance.quiz.options.family",
+        "weights": {
+          "family": 3,
+          "balanced": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "budget",
+    "titleKey": "finance.quiz.questions.budget.title",
+    "descriptionKey": "finance.quiz.questions.budget.description",
+    "options": [
+      {
+        "id": "value",
+        "labelKey": "finance.quiz.options.value",
+        "weights": {
+          "budget": 3
+        }
+      },
+      {
+        "id": "balanced",
+        "labelKey": "finance.quiz.options.coverage",
+        "weights": {
+          "balanced": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "extras",
+    "titleKey": "finance.quiz.questions.extras.title",
+    "descriptionKey": "finance.quiz.questions.extras.description",
+    "options": [
+      {
+        "id": "yes",
+        "labelKey": "common.yes",
+        "weights": {
+          "extras": 3,
+          "mentalHealth": 1
+        }
+      },
+      {
+        "id": "no",
+        "labelKey": "common.no",
+        "weights": {
+          "budget": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "mental-health",
+    "titleKey": "finance.quiz.questions.mentalHealth.title",
+    "descriptionKey": "finance.quiz.questions.mentalHealth.description",
+    "options": [
+      {
+        "id": "important",
+        "labelKey": "finance.quiz.options.highPriority",
+        "weights": {
+          "mentalHealth": 4
+        }
+      },
+      {
+        "id": "standard",
+        "labelKey": "finance.quiz.options.standardPriority",
+        "weights": {
+          "balanced": 2
+        }
+      }
+    ]
+  }
+]
