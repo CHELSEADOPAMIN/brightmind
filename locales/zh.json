@@ -204,6 +204,7 @@
       "requestFailed": "翻译失败，请检查 DeepL API Key 或网络请求。"
     },
     "history": "最近翻译",
+    "deleteHistoryItem": "删除这条翻译",
     "startListening": "开始语音演示",
     "listening": "识别中...",
     "recognized": "识别文本",

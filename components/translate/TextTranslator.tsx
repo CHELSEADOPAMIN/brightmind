@@ -1,3 +1,4 @@
+import { MaterialIcons } from '@expo/vector-icons';
 import { useEffect, useRef } from 'react';
 import { Pressable, Text, TextInput, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
@@ -102,8 +103,20 @@ export function TextTranslator() {
           <Text className="font-body text-[12px] uppercase tracking-[1.6px] text-muted">{t('translate.history')}</Text>
           {state.history.slice(0, 3).map((record) => (
             <View key={record.id} className="rounded-[20px] bg-[#f4ece8] p-3">
-              <Text className="font-body text-[13px] text-muted">{record.sourceText}</Text>
-              <Text className="mt-1 font-bodyBold text-[14px] text-ink">{record.translatedText}</Text>
+              <View className="flex-row items-start justify-between gap-3">
+                <View className="min-w-0 flex-1">
+                  <Text className="font-body text-[13px] text-muted">{record.sourceText}</Text>
+                  <Text className="mt-1 font-bodyBold text-[14px] text-ink">{record.translatedText}</Text>
+                </View>
+                <Pressable
+                  accessibilityLabel={t('translate.deleteHistoryItem')}
+                  className="rounded-full border border-[#dec9c0] bg-[#fff8f4] p-2"
+                  hitSlop={8}
+                  onPress={() => actions.removeHistoryRecord(record.id)}
+                >
+                  <MaterialIcons color="#8b7d78" name="close" size={16} />
+                </Pressable>
+              </View>
             </View>
           ))}
         </View>

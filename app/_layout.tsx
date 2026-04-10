@@ -23,7 +23,7 @@ SplashScreen.preventAutoHideAsync();
 export { ErrorBoundary } from 'expo-router';
 
 export const unstable_settings = {
-  initialRouteName: '(auth)/sign-in',
+  initialRouteName: '(auth)',
 };
 
 function LoadingScreen() {

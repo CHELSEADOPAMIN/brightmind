@@ -26,6 +26,7 @@ type TranslationContextValue = {
     setSourceText: (value: string) => void;
     swapLanguages: () => void;
     runTranslation: (value?: string) => Promise<void>;
+    removeHistoryRecord: (id: string) => void;
     clearOutput: () => void;
   };
   meta: {
@@ -140,6 +141,9 @@ export function TranslationProvider({ children }: PropsWithChildren) {
               setIsTranslating(false);
             }
           }
+        },
+        removeHistoryRecord: (id) => {
+          setHistory((current) => current.filter((record) => record.id !== id));
         },
         clearOutput: () => {
           requestIdRef.current += 1;

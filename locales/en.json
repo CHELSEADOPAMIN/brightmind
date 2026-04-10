@@ -204,6 +204,7 @@
       "requestFailed": "Translation failed. Check the DeepL API key or network request."
     },
     "history": "Recent translations",
+    "deleteHistoryItem": "Delete this translation",
     "startListening": "Start voice demo",
     "listening": "Listening...",
     "recognized": "Recognized speech",

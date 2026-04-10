@@ -204,6 +204,7 @@
       "requestFailed": "La traduccion fallo. Revisa la clave de la API de DeepL o la solicitud de red."
     },
     "history": "Traducciones recientes",
+    "deleteHistoryItem": "Eliminar esta traduccion",
     "startListening": "Iniciar demo de voz",
     "listening": "Escuchando...",
     "recognized": "Voz reconocida",
