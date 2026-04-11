@@ -9,9 +9,9 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { useUser } from '@/hooks/useUser';
 
 const packs = [
-  { id: 'starter', price: '$5', credits: 50 },
-  { id: 'plus', price: '$15', credits: 150 },
-  { id: 'max', price: '$30', credits: 350 },
+  { id: 'starter', price: '$1.99', credits: 50 },
+  { id: 'plus', price: '$5.97', credits: 150 },
+  { id: 'max', price: '$11.94', credits: 350 },
 ];
 
 export default function TopupScreen() {

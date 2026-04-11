@@ -20,10 +20,10 @@ export default function SignInScreen() {
         <Text className="font-body text-[16px] leading-7 text-muted">{t('auth.signInSubtitle')}</Text>
       </Animated.View>
       <Animated.View entering={FadeInDown.delay(120).duration(500)}>
-        <Card className="mt-4 gap-5 bg-brandDeep">
+        <Card className="mt-4 gap-5 border border-brand bg-brandSoft">
           <View className="gap-3">
-            <Text className="font-display text-[34px] leading-[34px] text-white">{t('auth.demoAccess')}</Text>
-            <Text className="font-body text-[15px] leading-6 text-white/85">{t('auth.legal')}</Text>
+            <Text className="font-display text-[34px] leading-[34px] text-ink">{t('auth.demoAccess')}</Text>
+            <Text className="font-body text-[15px] leading-6 text-ink">{t('auth.legal')}</Text>
           </View>
           <Button label={t('auth.signIn')} onPress={() => actions.signInDemo()} />
           <Link href="/(auth)/sign-up" asChild>
