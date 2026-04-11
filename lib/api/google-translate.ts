@@ -44,8 +44,8 @@ function mapToDeepLLanguageCode(language: string) {
       return 'ZH';
     case 'en':
       return 'EN';
-    case 'fr':
-      return 'FR';
+    case 'ne':
+      return 'NE';
     case 'es':
       return 'ES';
     default:

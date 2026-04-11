@@ -214,8 +214,16 @@
     "title": "Membership and credits",
     "subtitle": "Simple pricing, visible value, and a mock Stripe top-up path.",
     "plansTitle": "Free vs Premium",
-    "topupTitle": "Choose a credit pack",
-    "topupBody": "In this MVP, payment success is mocked but the state update is real.",
+    "topupTitle": "Choose a premium plan",
+    "topupBody": "Pick 1, 3, or 6 months. Buying any plan unlocks premium features immediately in the demo.",
+    "premiumPrice": "$1.99",
+    "premiumPlanNote": "Buy premium and voice translation plus premium recommendations turn on right away.",
+    "premiumPurchaseHint": "Premium activates after purchase",
+    "planDurations": {
+      "monthly": "1 month",
+      "quarterly": "3 months",
+      "semiAnnual": "6 months"
+    },
     "referralTitle": "Invite friends",
     "referralBody": "Share your code. The demo can simulate a successful referral reward instantly.",
     "lockedTitle": "Premium required",
@@ -230,7 +238,7 @@
       "two": "Voice translation demo",
       "three": "Priority-style premium presentation"
     },
-    "packSuccess": "Credits added and premium unlocked for the demo."
+    "packSuccess": "Premium is now active. Voice translation and premium recommendations are unlocked."
   },
   "profile": {
     "title": "Profile and settings",

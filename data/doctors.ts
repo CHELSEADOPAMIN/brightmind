@@ -49,7 +49,7 @@ export const doctorSeed: DoctorRecord[] = [
     latitude: -33.8978,
     longitude: 151.1793,
     suburb: 'Newtown',
-    languages: ['English', 'Français'],
+    languages: ['English', 'नेपाली'],
     bulkBilling: true,
     bio: 'Supports sleep issues, panic, and burnout with short practical tools and gentle accountability.',
     availability: ['Tue 11:30', 'Thu 14:30'],

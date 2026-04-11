@@ -7,10 +7,10 @@ export const voiceScripts = [
     output: 'I have been sleeping badly lately, and I feel overwhelmed.',
   },
   {
-    id: 'fr-en',
-    sourceLanguage: 'fr',
+    id: 'ne-en',
+    sourceLanguage: 'ne',
     targetLanguage: 'en',
-    input: "Je cherche un psychologue qui comprend la vie étudiante.",
+    input: 'म विद्यार्थी जीवन बुझ्ने मनोवैज्ञानिक खोज्दै छु।',
     output: 'I am looking for a psychologist who understands student life.',
   },
   {

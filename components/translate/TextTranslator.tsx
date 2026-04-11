@@ -9,7 +9,7 @@ import { useTranslationService } from '@/providers/translation-provider';
 const languageOptions = [
   { value: 'zh', label: '中文' },
   { value: 'en', label: 'English' },
-  { value: 'fr', label: 'Français' },
+  { value: 'ne', label: 'नेपाली' },
   { value: 'es', label: 'Español' },
 ];
 

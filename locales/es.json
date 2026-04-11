@@ -214,8 +214,16 @@
     "title": "Membresia y creditos",
     "subtitle": "Precios simples, valor visible y una ruta de recarga simulada con Stripe.",
     "plansTitle": "Gratis vs Premium",
-    "topupTitle": "Elige un paquete de creditos",
-    "topupBody": "En este MVP, el pago exitoso es simulado, pero la actualizacion de estado es real.",
+    "topupTitle": "Elige un plan premium",
+    "topupBody": "Elige 1, 3 o 6 meses. Comprar cualquier plan desbloquea las funciones premium al instante en la demo.",
+    "premiumPrice": "$1.99",
+    "premiumPlanNote": "Al comprar Premium, la traduccion por voz y las recomendaciones premium se activan de inmediato.",
+    "premiumPurchaseHint": "Premium se activa despues de la compra",
+    "planDurations": {
+      "monthly": "1 mes",
+      "quarterly": "3 meses",
+      "semiAnnual": "6 meses"
+    },
     "referralTitle": "Invita a tus amigos",
     "referralBody": "Comparte tu codigo. La demo puede simular una recompensa por referido al instante.",
     "lockedTitle": "Se requiere Premium",
@@ -230,7 +238,7 @@
       "two": "Demo de traduccion por voz",
       "three": "Experiencia Premium mas cuidada"
     },
-    "packSuccess": "Se anadieron creditos y se desbloqueo Premium para la demo."
+    "packSuccess": "Premium ya esta activo. La traduccion por voz y las recomendaciones premium estan desbloqueadas."
   },
   "profile": {
     "title": "Perfil y ajustes",

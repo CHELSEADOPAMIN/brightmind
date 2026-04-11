@@ -13,7 +13,7 @@ import type { AppLanguage } from '@/types/user';
 const languageOptions: { value: AppLanguage; label: string }[] = [
   { value: 'en', label: 'EN' },
   { value: 'zh', label: '中文' },
-  { value: 'fr', label: 'FR' },
+  { value: 'ne', label: 'नेपाली' },
   { value: 'es', label: 'ES' },
 ];
 

@@ -214,8 +214,16 @@
     "title": "会员与积分",
     "subtitle": "价格清晰，价值直观，充值路径用 mock 展示。",
     "plansTitle": "免费版 vs 高级版",
-    "topupTitle": "选择积分包",
-    "topupBody": "在这个 MVP 中，支付成功是 mock，但状态更新是真实的。",
+    "topupTitle": "选择高级版方案",
+    "topupBody": "可选 1、3、6 个月。购买任意方案后会立即解锁高级版功能。",
+    "premiumPrice": "$1.99",
+    "premiumPlanNote": "购买高级版后，语音翻译和高级推荐功能会立即开启。",
+    "premiumPurchaseHint": "购买后立即激活高级版",
+    "planDurations": {
+      "monthly": "1 个月",
+      "quarterly": "3 个月",
+      "semiAnnual": "6 个月"
+    },
     "referralTitle": "邀请好友",
     "referralBody": "分享邀请码，演示中可以立即模拟成功返积分。",
     "lockedTitle": "需要高级版",
@@ -230,7 +238,7 @@
       "two": "语音翻译演示",
       "three": "更完整的高级版展示体验"
     },
-    "packSuccess": "已增加积分，并在演示中解锁高级版。"
+    "packSuccess": "高级版已激活，语音翻译和高级推荐功能现已解锁。"
   },
   "profile": {
     "title": "个人与设置",

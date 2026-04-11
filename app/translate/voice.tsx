@@ -16,7 +16,7 @@ const waveformSeeds = [12, 24, 16, 30, 20, 26, 14];
 const languageLabels = {
   zh: '中文',
   en: 'English',
-  fr: 'Français',
+  ne: 'नेपाली',
   es: 'Español',
 } as const;
 

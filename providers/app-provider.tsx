@@ -10,6 +10,10 @@ type AppSnapshot = {
   bookings: BookingRecord[];
 };
 
+type StoredSnapshot = Omit<AppSnapshot, 'user'> & {
+  user: (Omit<AppUser, 'language'> & { language?: string }) | null;
+};
+
 type AppContextValue = {
   state: AppSnapshot & { ready: boolean };
   actions: {
@@ -46,8 +50,18 @@ const seededReferrals: ReferralRecord[] = [
 
 const AppContext = createContext<AppContextValue | null>(null);
 
+const supportedLanguages: AppLanguage[] = ['en', 'zh', 'ne', 'es'];
+
+function normalizeLanguage(language?: string): AppLanguage {
+  if (language === 'fr') {
+    return 'ne';
+  }
+
+  return supportedLanguages.includes(language as AppLanguage) ? (language as AppLanguage) : 'en';
+}
+
 function buildDemoUser(payload?: Partial<Pick<AppUser, 'name' | 'email' | 'language'>>): AppUser {
-  const language = payload?.language ?? 'en';
+  const language = normalizeLanguage(payload?.language);
 
   return {
     id: 'demo-user',
@@ -81,10 +95,20 @@ export function AppProvider({ children }: PropsWithChildren) {
         }
 
         if (stored) {
-          const parsed = JSON.parse(stored) as AppSnapshot;
-          setState({ ...parsed, ready: true });
-          if (parsed.user?.language) {
-            await i18n.changeLanguage(parsed.user.language);
+          const parsed = JSON.parse(stored) as StoredSnapshot;
+          const normalizedSnapshot: AppSnapshot = {
+            ...parsed,
+            user: parsed.user
+              ? {
+                  ...parsed.user,
+                  language: normalizeLanguage(parsed.user.language),
+                }
+              : null,
+          };
+
+          setState({ ...normalizedSnapshot, ready: true });
+          if (normalizedSnapshot.user?.language) {
+            await i18n.changeLanguage(normalizedSnapshot.user.language);
           }
           return;
         }

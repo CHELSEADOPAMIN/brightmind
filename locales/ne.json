@@ -1,0 +1,256 @@
+{
+  "common": {
+    "appName": "BrightMind",
+    "upgrade": "अपग्रेड",
+    "yes": "हो",
+    "no": "होइन",
+    "credits": "क्रेडिट",
+    "premium": "प्रिमियम",
+    "free": "फ्री",
+    "compare": "तुलना",
+    "continue": "जारी राख्नुहोस्",
+    "next": "अर्को",
+    "back": "फिर्ता",
+    "call": "कल",
+    "book": "बुक",
+    "done": "सम्पन्न",
+    "signOut": "साइन आउट",
+    "language": "भाषा",
+    "share": "सेयर",
+    "copy": "कोड कपी गर्नुहोस्",
+    "copied": "कपी भयो",
+    "mockMode": "प्रस्तुति मोड",
+    "presentationReady": "प्रस्तुति तयार",
+    "loading": "लोड हुँदैछ..."
+  },
+  "tabs": {
+    "home": "होम",
+    "finance": "फाइनान्स",
+    "doctor": "डाक्टर",
+    "translate": "अनुवाद",
+    "profile": "प्रोफाइल"
+  },
+  "auth": {
+    "signInTitle": "विदेशमा पढाइ जीवनका लागि शान्त सहयोग।",
+    "signInSubtitle": "अन्तर्राष्ट्रिय विद्यार्थीका लागि प्रस्तुति-तयार मानसिक स्वास्थ्य साथी।",
+    "demoAccess": "डेमो तुरुन्त खोल्नुहोस्",
+    "signIn": "डेमो Google बाट जारी राख्नुहोस्",
+    "signUp": "डेमो खाता सिर्जना गर्नुहोस्",
+    "name": "नाम",
+    "email": "इमेल",
+    "referralCode": "रेफरल कोड",
+    "createAccount": "खाता सिर्जना गर्नुहोस्",
+    "needAccount": "खाता चाहिन्छ?",
+    "alreadyHaveAccount": "पहिले नै खाता छ?",
+    "legal": "Clerk र Supabase scaffold गरिएको छ। key थप्दासम्म यो build सुरक्षित mock mode मा रहन्छ।"
+  },
+  "home": {
+    "greeting": "फर्किनुभएकोमा स्वागत छ",
+    "heroTitle": "बीमा, care, अनुवाद र शान्तिका लागि एउटै ठाउँ।",
+    "heroBody": "छिटो demo का लागि डिजाइन गरिएको: flow हरू interactive छन्, risky भागहरू mocked छन्, र UI सधैं crisp रहन्छ।",
+    "heroCta": "प्रिमियम योजना हेर्नुहोस्",
+    "tipTitle": "आजको मानसिक स्वास्थ्य टिप",
+    "tipBody": "ठूला reset भन्दा साना routine ले राम्रो काम गर्छन्। कक्षा पछि दोहोर्याउन सकिने एउटा काम छान्नुहोस् र देखिने ठाउँमा राख्नुहोस्।",
+    "cards": {
+      "financeTitle": "OSHC फाइनान्स",
+      "financeBody": "योजना तुलना गर्नुहोस्, recommendation quiz चलाउनुहोस्, र switch guide हेर्नुहोस्।",
+      "doctorTitle": "डाक्टर खोजी",
+      "doctorBody": "नजिकका मनोवैज्ञानिक र Medicare-friendly clinic हरू एकै स्क्रिनमा हेर्नुहोस्।",
+      "translateTitle": "अनुवाद",
+      "translateBody": "अहिले नै text translation प्रयोग गर्नुहोस् र premium mode मा voice translation demo गर्नुहोस्।",
+      "membershipTitle": "सदस्यता",
+      "membershipBody": "एउटै upgrade flow बाट OSHC recommendation र voice translation unlock गर्नुहोस्।"
+    }
+  },
+  "finance": {
+    "title": "OSHC सहयोग",
+    "subtitle": "प्रस्तुति-केन्द्रित तुलना, quiz ranking, र switching guidance।",
+    "browseCompare": "योजना तुलना",
+    "browseBody": "दुई वा तीन योजना छान्नुहोस् र केही सेकेन्डमै फरक स्क्यान गर्नुहोस्।",
+    "quizTitle": "प्रिमियम सिफारिस",
+    "quizBody": "चार वटा हल्का प्रश्नको उत्तर दिनुहोस् र ranked shortlist पाउनुहोस्।",
+    "guideTitle": "स्विच गाइड",
+    "guideBody": "फोन गर्नुहोस्, पुष्टि गर्नुहोस्, र सफा checklist सहित switch गर्नुहोस्।",
+    "perMonth": "प्रति महिना",
+    "compareMatrix": "तुलना तालिका",
+    "compareHelper": "तुलना तालिकाका लागि बढीमा तीन योजना छान्नुहोस्।",
+    "compareColumns": {
+      "provider": "बीमाकर्ता"
+    },
+    "coverageLevels": {
+      "core": "कोर",
+      "balanced": "सन्तुलित",
+      "plus": "प्लस"
+    },
+    "planTags": {
+      "budget": "बजेट",
+      "telehealth": "टेलिहेल्थ",
+      "mentalHealth": "मानसिक स्वास्थ्य",
+      "support": "बलियो सहयोग",
+      "extras": "अतिरिक्त",
+      "family": "परिवार",
+      "optical": "अप्टिकल",
+      "dental": "दन्त",
+      "physio": "फिजियो"
+    },
+    "planPerks": {
+      "lowCost": "कसिलो विद्यार्थी बजेटका लागि कम सुरुवाती मूल्य।",
+      "easyClaims": "छिटो reimbursement का लागि सरल claims flow।",
+      "mentalHealthFocus": "counselling cover महत्त्वपूर्ण हुँदा अझ उपयुक्त।",
+      "strongSupport": "onboarding का बेला भरपर्दो support channels।",
+      "extrasBundle": "dental र optical extras चाहिने अवस्थामा उत्तम।",
+      "familyFriendly": "partner वा परिवारको आवश्यकताका लागि बढी सहज।",
+      "goodValue": "cost र flexibility बीच राम्रो सन्तुलन।",
+      "fastSupport": "switching सम्बन्धी प्रश्नका लागि छिटो support।",
+      "supportiveOnboarding": "पहिलो पटकका अन्तर्राष्ट्रिय विद्यार्थीका लागि उपयोगी।"
+    },
+    "compareRows": {
+      "monthlyPrice": "मासिक",
+      "mentalHealth": "मानसिक स्वास्थ्य",
+      "dental": "दन्त",
+      "optical": "अप्टिकल",
+      "telehealth": "टेलिहेल्थ"
+    },
+    "quiz": {
+      "startTitle": "प्रिमियम क्विज",
+      "startBody": "छिटो rules-based scoring। कुनै AI hand-waving छैन।",
+      "resultTitle": "सिफारिस गरिएको shortlist",
+      "resultBody": "तपाईंको सबैभन्दा राम्रो मिलान पहिलो स्थानमा हुन्छ, तल backup विकल्पहरू सहित।",
+      "questions": {
+        "household": {
+          "title": "कसलाई cover चाहिन्छ?",
+          "description": "यसले family flexibility कति महत्त्वपूर्ण छ भन्ने बदल्छ।"
+        },
+        "budget": {
+          "title": "तपाईंका लागि के बढी महत्त्वपूर्ण छ?",
+          "description": "price discipline र broader cover बीच छान्नुहोस्।"
+        },
+        "extras": {
+          "title": "extras महत्त्वपूर्ण छन्?",
+          "description": "दन्त, अप्टिकल, र add-on support सोच्नुहोस्।"
+        },
+        "mentalHealth": {
+          "title": "मानसिक स्वास्थ्य cover कति महत्त्वपूर्ण छ?",
+          "description": "counselling support मा बलियो लाग्ने योजनातर्फ bias गर्न यो प्रयोग गर्नुहोस्।"
+        }
+      },
+      "options": {
+        "single": "म मात्र",
+        "family": "जोडी वा परिवार",
+        "value": "कम लागत",
+        "coverage": "विस्तृत cover",
+        "highPriority": "उच्च प्राथमिकता",
+        "standardPriority": "सामान्य प्राथमिकता"
+      }
+    },
+    "guideChecklist": {
+      "one": "आफ्नो हालको cover को न्यूनतम policy end date पुष्टि गर्नुहोस्।",
+      "two": "provider लाई फोन गरेर student policy का लागि ठ्याक्कै cancellation path सोध्नुहोस्।",
+      "three": "पहिले नयाँ policy submit गर्नुहोस्, त्यसपछि overlap confirmation माग्नुहोस्।",
+      "four": "visa वा university admin follow-up का लागि cover letters का screenshot सुरक्षित राख्नुहोस्।"
+    }
+  },
+  "doctor": {
+    "title": "नजिकै care खोज्नुहोस्",
+    "subtitle": "स्थिर demo data, parallel fetch flow, र उपयोगी filter हरू।",
+    "bulkBilling": "Bulk billing",
+    "privateBilling": "Private billing",
+    "locationReady": "अहिले Sydney CBD को demo location प्रयोग भइरहेको छ।",
+    "locationFallback": "location access छोडियो। Sydney CBD मा fallback गरियो।",
+    "specialties": {
+      "general": "General",
+      "anxiety": "Anxiety",
+      "depression": "Depression",
+      "trauma": "Trauma",
+      "relationship": "Relationship"
+    },
+    "filters": {
+      "gender": "लिङ्ग",
+      "specialty": "विशेषज्ञता",
+      "billing": "Billing",
+      "all": "सबै",
+      "male": "पुरुष",
+      "female": "महिला",
+      "yes": "हो",
+      "no": "होइन"
+    },
+    "mapFallback": "Web मा map preview साधारण राखिएको छ। Native build मा interactive markers प्रयोग गर्न सकिन्छ।",
+    "about": "बारेमा",
+    "languages": "भाषाहरू",
+    "availability": "उपलब्धता",
+    "suburb": "क्षेत्र",
+    "bookTitle": "बुकिङ",
+    "bookSubtitle": "समय छान्नुहोस् र स्पष्ट confirmation state देखाउनुहोस्।",
+    "dateLabel": "रुचाइएको मिति",
+    "slotLabel": "समय",
+    "noteLabel": "तपाईं के उल्लेख गर्न चाहनुहुन्छ?",
+    "bookingConfirmed": "बुकिङ पुष्टि भयो",
+    "bookingBody": "यो प्रस्तुति-सुरक्षित mock हो। कुनै वास्तविक clinic request पठाइएको छैन।"
+  },
+  "translate": {
+    "title": "कम friction मा translate",
+    "subtitle": "text mode काम गर्छ। voice mode demo का लागि staged छ।",
+    "textTitle": "टेक्स्ट अनुवाद",
+    "voiceTitle": "आवाज अनुवाद डेमो",
+    "voiceSubtitle": "प्रिमियम mode मा timed script ले recognition र translation simulate गर्छ।",
+    "inputPlaceholder": "आफ्नो भाषामा भन्न चाहेको कुरा टाइप गर्नुहोस्।",
+    "targetLanguage": "लक्षित भाषा",
+    "swap": "साट्नुहोस्",
+    "translating": "अनुवाद हुँदैछ...",
+    "outputPlaceholder": "तपाईंको अनुवाद यहाँ देखिनेछ।",
+    "errors": {
+      "browserNotSupported": "DeepL quick mode browser मा काम गर्दैन। आफ्नो फोनमा Expo Go प्रयोग गर्नुहोस्, वा web का लागि backend proxy थप्नुहोस्।",
+      "notConfigured": "translation अझै configure गरिएको छैन। EXPO_PUBLIC_DEEPL_API_KEY थप्नुहोस् वा सुरक्षित translate-text proxy जडान गर्नुहोस्।",
+      "requestFailed": "translation असफल भयो। DeepL API key वा network request जाँच गर्नुहोस्।"
+    },
+    "history": "हालका अनुवाद",
+    "deleteHistoryItem": "यो अनुवाद मेटाउनुहोस्",
+    "startListening": "voice demo सुरु गर्नुहोस्",
+    "listening": "सुनिँदैछ...",
+    "recognized": "पहिचान गरिएको speech",
+    "translatedResult": "अनुवादित परिणाम"
+  },
+  "membership": {
+    "title": "सदस्यता र क्रेडिट",
+    "subtitle": "सरल मूल्य, देखिने value, र mock Stripe top-up path।",
+    "plansTitle": "Free बनाम Premium",
+    "topupTitle": "प्रिमियम योजना छान्नुहोस्",
+    "topupBody": "१, ३, वा ६ महिना छान्नुहोस्। कुनै पनि योजना किनेपछि demo मा premium सुविधा तुरुन्त unlock हुन्छ।",
+    "premiumPrice": "$1.99",
+    "premiumPlanNote": "प्रिमियम किनेपछि voice translation र premium recommendation तुरुन्त खुल्छ।",
+    "premiumPurchaseHint": "किनेपछि premium सक्रिय हुन्छ",
+    "planDurations": {
+      "monthly": "१ महिना",
+      "quarterly": "३ महिना",
+      "semiAnnual": "६ महिना"
+    },
+    "referralTitle": "साथीहरूलाई निम्तो दिनुहोस्",
+    "referralBody": "आफ्नो code share गर्नुहोस्। demo ले referral reward तुरुन्त simulate गर्न सक्छ।",
+    "lockedTitle": "Premium आवश्यक छ",
+    "lockedBody": "यो flow premium gate पछाडि राखिएको छ ताकि demo ले membership value स्पष्ट देखाओस्।",
+    "freeFeatures": {
+      "one": "टेक्स्ट अनुवाद",
+      "two": "डाक्टर सूची र filter हरू",
+      "three": "OSHC ब्राउजिङ"
+    },
+    "premiumFeatures": {
+      "one": "OSHC सिफारिस क्विज",
+      "two": "आवाज अनुवाद डेमो",
+      "three": "अझ राम्रो premium प्रस्तुति अनुभव"
+    },
+    "packSuccess": "Premium अहिले सक्रिय छ। Voice translation र premium recommendation unlock भएका छन्।"
+  },
+  "profile": {
+    "title": "प्रोफाइल र सेटिङ",
+    "demoMode": "डेमो खाता",
+    "connectedHint": "अहिले Clerk र Supabase key अनिवार्य छैनन्। तिनीहरू बिना पनि app प्रयोग गर्न मिल्छ।",
+    "languageTitle": "भाषा",
+    "referralTitle": "रेफरल कोड",
+    "bookingsTitle": "हालका बुकिङहरू",
+    "noBookings": "अहिलेसम्म कुनै बुकिङ छैन।"
+  },
+  "notFound": {
+    "title": "यो स्क्रिन उपलब्ध छैन",
+    "body": "यो route अझै wire गरिएको छैन। मुख्य flow मा फर्कनुहोस्।"
+  }
+}

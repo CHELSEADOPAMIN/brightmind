@@ -1,4 +1,4 @@
-export type AppLanguage = 'en' | 'zh' | 'fr' | 'es';
+export type AppLanguage = 'en' | 'zh' | 'ne' | 'es';
 
 export type MembershipTier = 'free' | 'premium';
 

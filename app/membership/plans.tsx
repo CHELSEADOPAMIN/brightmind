@@ -7,14 +7,12 @@ import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Screen } from '@/components/ui/Screen';
 import { SectionHeading } from '@/components/ui/SectionHeading';
-import { useUser } from '@/hooks/useUser';
 
 const freeKeys = ['one', 'two', 'three'] as const;
 const premiumKeys = ['two', 'one', 'three'] as const;
 
 export default function PlansScreen() {
   const { t } = useTranslation();
-  const { isPremium } = useUser();
 
   return (
     <Screen>
@@ -27,6 +25,11 @@ export default function PlansScreen() {
       </Card>
       <Card className="gap-4 border-brand bg-brandSoft">
         <Badge label={t('common.premium')} tone="brand" />
+        <View className="flex-row items-end gap-2">
+          <Text className="font-display text-[40px] text-ink">{t('membership.premiumPrice')}</Text>
+          <Text className="pb-1 font-body text-[14px] text-muted">{t('finance.perMonth')}</Text>
+        </View>
+        <Text className="font-body text-[15px] leading-6 text-muted">{t('membership.premiumPlanNote')}</Text>
         <View className="rounded-[24px] border border-brand bg-white px-4 py-4">
           <Text className="font-display text-[28px] text-ink">{t('translate.voiceTitle')}</Text>
           <Text className="mt-2 font-body text-[14px] leading-6 text-muted">{t('translate.voiceSubtitle')}</Text>
@@ -34,7 +37,7 @@ export default function PlansScreen() {
         {premiumKeys.map((key) => (
           <Text key={key} className="font-body text-[15px] leading-6 text-ink">• {t(`membership.premiumFeatures.${key}`)}</Text>
         ))}
-        <Button label={isPremium ? t('membership.topupTitle') : t('common.upgrade')} onPress={() => router.push('/membership/topup')} />
+        <Button label={t('membership.topupTitle')} onPress={() => router.push('/membership/topup')} />
       </Card>
     </Screen>
   );
