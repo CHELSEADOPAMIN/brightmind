@@ -37,10 +37,10 @@ export default function DoctorBookScreen() {
     <Screen>
       <SectionHeading title={t('doctor.bookTitle')} description={t('doctor.bookSubtitle')} />
       {confirmed ? (
-        <Card className="gap-3 bg-brandDeep">
-          <Text className="font-display text-[34px] text-white">{t('doctor.bookingConfirmed')}</Text>
-          <Text className="font-body text-[15px] leading-6 text-white/85">{t('doctor.bookingBody')}</Text>
-          <Text className="font-bodyBold text-[15px] text-white">{doctor.name} · {selectedDay} · {selectedSlot}</Text>
+        <Card className="gap-3 border border-brand bg-brandSoft">
+          <Text className="font-display text-[34px] text-ink">{t('doctor.bookingConfirmed')}</Text>
+          <Text className="font-body text-[15px] leading-6 text-ink">{t('doctor.bookingBody')}</Text>
+          <Text className="font-bodyBold text-[15px] text-ink">{doctor.name} · {selectedDay} · {selectedSlot}</Text>
         </Card>
       ) : (
         <Card className="gap-4">

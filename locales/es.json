@@ -155,8 +155,8 @@
     "subtitle": "Datos demo estaticos, flujo de carga en paralelo y filtros practicos.",
     "bulkBilling": "Facturacion directa",
     "privateBilling": "Consulta privada",
-    "locationReady": "Usando la ubicacion demo del centro de Melbourne.",
-    "locationFallback": "Se omitio el acceso a la ubicacion. Usando el centro de Melbourne.",
+    "locationReady": "Usando la ubicacion demo del centro de Sydney.",
+    "locationFallback": "Se omitio el acceso a la ubicacion. Usando el centro de Sydney.",
     "specialties": {
       "general": "General",
       "anxiety": "Ansiedad",
@@ -179,7 +179,7 @@
     "languages": "Idiomas",
     "availability": "Disponibilidad",
     "suburb": "Barrio",
-    "bookTitle": "Reserva simulada",
+    "bookTitle": "Reserva",
     "bookSubtitle": "Elige un horario y muestra un estado de confirmacion claro.",
     "dateLabel": "Fecha preferida",
     "slotLabel": "Franja horaria",
@@ -239,7 +239,7 @@
     "languageTitle": "Idioma",
     "referralTitle": "Codigo de referido",
     "bookingsTitle": "Reservas recientes",
-    "noBookings": "Todavia no hay reservas simuladas."
+    "noBookings": "Todavia no hay reservas."
   },
   "notFound": {
     "title": "Falta esta pantalla",

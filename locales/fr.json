@@ -153,8 +153,8 @@
     "subtitle": "Static demo data, parallel fetch flow, and practical filters.",
     "bulkBilling": "Bulk billing",
     "privateBilling": "Private billing",
-    "locationReady": "Using Melbourne CBD demo location.",
-    "locationFallback": "Location access skipped. Falling back to Melbourne CBD.",
+    "locationReady": "Using Sydney CBD demo location.",
+    "locationFallback": "Location access skipped. Falling back to Sydney CBD.",
     "specialties": {
       "general": "General",
       "anxiety": "Anxiety",
@@ -177,7 +177,7 @@
     "languages": "Languages",
     "availability": "Availability",
     "suburb": "Suburb",
-    "bookTitle": "Mock booking",
+    "bookTitle": "Booking",
     "bookSubtitle": "Choose a slot and show a clear confirmation state.",
     "dateLabel": "Preferred date",
     "slotLabel": "Time slot",
@@ -237,7 +237,7 @@
     "languageTitle": "Language",
     "referralTitle": "Referral code",
     "bookingsTitle": "Recent bookings",
-    "noBookings": "No mock bookings yet."
+    "noBookings": "No bookings yet."
   },
   "notFound": {
     "title": "This screen is missing",

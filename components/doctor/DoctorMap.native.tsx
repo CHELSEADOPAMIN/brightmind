@@ -1,3 +1,4 @@
+import { StyleSheet } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
 import type { DoctorRecord } from '@/types/doctor';
@@ -10,13 +11,14 @@ type DoctorMapProps = {
 export function DoctorMap({ doctors }: DoctorMapProps) {
   return (
     <MapView
-      className="h-full w-full"
+      loadingEnabled
       initialRegion={{
-        latitude: -37.8136,
-        longitude: 144.9631,
+        latitude: -33.8688,
+        longitude: 151.2093,
         latitudeDelta: 0.06,
         longitudeDelta: 0.06,
       }}
+      style={styles.map}
     >
       {doctors.map((doctor) => (
         <Marker
@@ -28,3 +30,7 @@ export function DoctorMap({ doctors }: DoctorMapProps) {
     </MapView>
   );
 }
+
+const styles = StyleSheet.create({
+  map: StyleSheet.absoluteFillObject,
+});

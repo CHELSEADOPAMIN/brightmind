@@ -9,6 +9,7 @@ type CompareTableProps = {
 };
 
 const rows = ['monthlyPrice', 'mentalHealth', 'dental', 'optical', 'telehealth'] as const;
+const labelColumnWidth = 92;
 
 export function CompareTable({ plans }: CompareTableProps) {
   const { t } = useTranslation();
@@ -22,7 +23,7 @@ export function CompareTable({ plans }: CompareTableProps) {
       <Text className="font-display text-[28px] text-ink">{t('finance.compareMatrix')}</Text>
       <View className="rounded-[20px] border border-stroke">
         <View className="flex-row border-b border-stroke bg-[#fcf8f5]">
-          <View className="w-[110px] justify-center bg-[#f7efeb] px-3 py-4">
+          <View className="justify-center bg-[#f7efeb] px-2.5 py-4" style={{ width: labelColumnWidth }}>
             <Text className="font-bodyBold text-[13px] text-ink">{t('finance.compareColumns.provider')}</Text>
           </View>
           {plans.map((plan, columnIndex) => (
@@ -30,13 +31,15 @@ export function CompareTable({ plans }: CompareTableProps) {
               key={`${plan.id}-header`}
               className={`flex-1 justify-center px-3 py-4 ${columnIndex < plans.length - 1 ? 'border-r border-stroke' : ''}`}
             >
-              <Text className="font-bodyBold text-[13px] leading-5 text-ink">{plan.provider}</Text>
+              <Text adjustsFontSizeToFit className="font-bodyBold text-[13px] leading-5 text-ink" numberOfLines={1}>
+                {plan.provider}
+              </Text>
             </View>
           ))}
         </View>
         {rows.map((row, rowIndex) => (
           <View key={row} className={`flex-row ${rowIndex < rows.length - 1 ? 'border-b border-stroke' : ''}`}>
-            <View className="w-[110px] bg-[#f7efeb] px-3 py-4">
+            <View className="bg-[#f7efeb] px-2.5 py-4" style={{ width: labelColumnWidth }}>
               <Text className="font-bodyBold text-[13px] text-ink">{t(`finance.compareRows.${row}`)}</Text>
             </View>
             {plans.map((plan, columnIndex) => (

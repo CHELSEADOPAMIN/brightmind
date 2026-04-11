@@ -155,8 +155,8 @@
     "subtitle": "静态演示数据、并行获取流程和实用筛选。",
     "bulkBilling": "Bulk billing",
     "privateBilling": "自费",
-    "locationReady": "当前使用 Melbourne CBD 演示定位。",
-    "locationFallback": "未开启定位，已回退到 Melbourne CBD。",
+    "locationReady": "当前使用 Sydney CBD 演示定位。",
+    "locationFallback": "未开启定位，已回退到 Sydney CBD。",
     "specialties": {
       "general": "综合",
       "anxiety": "焦虑",
@@ -179,7 +179,7 @@
     "languages": "语言",
     "availability": "可预约时段",
     "suburb": "区域",
-    "bookTitle": "模拟预约",
+    "bookTitle": "预约",
     "bookSubtitle": "选时间并展示清晰的成功状态。",
     "dateLabel": "期望日期",
     "slotLabel": "时间段",
@@ -239,7 +239,7 @@
     "languageTitle": "语言",
     "referralTitle": "邀请码",
     "bookingsTitle": "最近预约",
-    "noBookings": "还没有模拟预约。"
+    "noBookings": "还没有预约。"
   },
   "notFound": {
     "title": "页面不存在",

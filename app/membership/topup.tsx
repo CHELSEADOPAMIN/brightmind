@@ -43,9 +43,9 @@ export default function TopupScreen() {
       ))}
       <Button label={t('common.continue')} onPress={handleMockPayment} />
       {success ? (
-        <Card className="gap-2 bg-brandDeep">
-          <Text className="font-display text-[30px] text-white">{t('common.done')}</Text>
-          <Text className="font-body text-[15px] leading-6 text-white/85">{t('membership.packSuccess')}</Text>
+        <Card className="gap-2 border border-brand bg-brandSoft">
+          <Text className="font-display text-[30px] text-ink">{t('common.done')}</Text>
+          <Text className="font-body text-[15px] leading-6 text-ink">{t('membership.packSuccess')}</Text>
         </Card>
       ) : null}
     </Screen>
